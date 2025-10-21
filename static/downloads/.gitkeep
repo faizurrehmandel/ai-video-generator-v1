@@ -1,0 +1,4 @@
+# This file is a placeholder to ensure the 'downloads' directory is tracked by Git.
+# The Flask application uses this directory to temporarily store the final generated MP4 videos
+# before they are served to the user. This file can be safely deleted if other files
+# are present in this directory.
