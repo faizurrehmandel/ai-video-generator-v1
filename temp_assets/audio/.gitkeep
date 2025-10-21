@@ -1,0 +1,3 @@
+# This directory is a temporary storage for generated voiceover audio files (.mp3).
+# These files are created by the ElevenLabs API during the video generation process.
+# The .gitkeep file ensures this directory is tracked by Git, as it's required by the application but is often empty.
