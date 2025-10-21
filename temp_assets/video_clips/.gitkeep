@@ -1,0 +1,5 @@
+# This file is intentionally left blank.
+# It serves as a placeholder to ensure the 'temp_assets/video_clips/' directory
+# is tracked by Git, even when it's empty. This directory is used to
+# temporarily store video clips downloaded from the Pexels API before they are
+# processed and compiled into the final video by the application.
