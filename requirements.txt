@@ -1,0 +1,27 @@
+# ==============================================================================
+# Python Dependencies for AI Video Generator V1
+# ==============================================================================
+# This file lists the project's Python dependencies.
+# To install these dependencies, run the following command in your terminal
+# within your activated virtual environment:
+#
+# pip install -r requirements.txt
+#
+# It is a best practice to pin versions to ensure a consistent and
+# reproducible environment across all development and production setups.
+# ==============================================================================
+
+# --- Core Web Framework ---
+Flask==2.3.3              # A micro web framework for building the web application and API endpoints.
+
+# --- AI & API Clients ---
+google-generativeai==0.5.4 # Official Python client for the Google Gemini API (for script generation).
+elevenlabs==1.2.1           # Official Python client for the ElevenLabs API (for text-to-speech voiceovers).
+pexels-api==1.0.1         # A third-party wrapper for the Pexels API (for sourcing stock videos).
+requests==2.31.0            # A robust HTTP library, often used alongside API wrappers for flexibility.
+
+# --- Media Processing ---
+moviepy==1.0.3            # A library for video editing, used here for stitching clips and audio together.
+
+# --- Utilities ---
+python-dotenv==1.0.1      # Reads key-value pairs from a .env file and sets them as environment variables (for managing API keys).
